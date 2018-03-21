@@ -1,0 +1,20 @@
+{
+	"name": "rogue-space",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jbjw/rogue-space.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jbjw/rogue-space/issues"
+	},
+	"homepage": "https://github.com/jbjw/rogue-space#readme"
+}
