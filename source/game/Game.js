@@ -6,13 +6,20 @@ import "./Ship.js"
 
 export default class Game {
 	constructor( args ) {
-
+		console.log( "making game", args )
+		// args
+		// this.ships = []
 	}
-	this.ships = []
-
-	// get b() {
-	//
-	// }
 }
+
+
+
+
+
+
+// get b() {
+//
+// }
+
 
 // Game.prototype.add

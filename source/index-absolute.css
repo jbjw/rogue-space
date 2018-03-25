@@ -25,50 +25,42 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: stretch;
+	align-items: center;
 	height: 100%;
 }
 
-.row {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: stretch;
-}
-
-.row-top {
-	flex-basis: 100px;
-}
-
-.row-middle {
-	flex-grow: 1;
-	justify-content: space-between;
-}
-
-.row-bottom {
-	flex-basis: 100px;
-}
-
-.pane {
+.tray {
 	box-sizing: border-box;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
 	background-color: red;
+	height: 50px;
+	width: 100px;
 	border: 3px solid black;
-	flex-basis: 100px;
 }
 
-.pane-top {
-	flex-grow: 1;
+.tray-top {
+	top: 0%;
+	height: 20%;
+	width: 100%;
 }
 
-.pane-bottom {
-	flex-grow: 1;
+.tray-bottom {
+	bottom: 0%;
+	height: 20%;
+	width: 100%;
 }
 
-.pane-left {
-	/* align-self: flex-start; */
+.tray-left {
+	left: 0%;
+	height: 60%;
+	width: 10%;
 }
 
-.pane-right {
-	/* align-self: flex-end; */
+.tray-right {
+	right: 0%;
+	height: 60%;
+	width: 10%;
 }
