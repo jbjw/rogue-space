@@ -29,26 +29,15 @@ class Root extends React.Component {
 		// 	els.push( <Tray key={ i }></Tray> )
 		// }
 		// const els = new Array( 6 ).map( () => <Tray key={}></Tray> )
-		return ( <div id={ "inner-root" }>
-			<div className="row row-top">
+
+		return (
+			<div id={ "inner-root" }>
 				<Pane position="top"></Pane>
-			</div>
-			<div className="row row-middle">
 				<Pane position="left"></Pane>
 				<Pane position="right"></Pane>
-			</div>
-			<div className="row row-bottom">
 				<Pane position="bottom"></Pane>
 			</div>
-		</div> )
-		// return (
-		// 	<div id={ "inner-root" }>
-		// 		<Pane position="top"></Pane>
-		// 		<Pane position="left"></Pane>
-		// 		<Pane position="right"></Pane>
-		// 		<Pane position="bottom"></Pane>
-		// 	</div>
-		// )
+		)
 	}
 }
 
