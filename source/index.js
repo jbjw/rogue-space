@@ -4,17 +4,13 @@
 
 import Log from "./ui/Log.js"
 
-import Game from "./game/Game.js"
-import Ship from "./game/Ship.js"
-
 import React from "react"
 import ReactDOM from "react-dom"
 
 import "./index.css"
+import GameRunner from "./GameRunner.js"
 
-const game = new Game()
-
-const ship1 = new Ship()
+const gameRunner = new GameRunner()
 
 class Root extends React.Component {
 	constructor( props ) {
